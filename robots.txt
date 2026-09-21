@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aristsai.com/sitemap.xml
