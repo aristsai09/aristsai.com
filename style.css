@@ -50,7 +50,7 @@ nav a { color: #333; font-size: 13px; }
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 170px;
+  grid-template-columns: minmax(0, 1fr) 150px;
   gap: 48px;
   align-items: center;
   padding: 54px 0 28px;
@@ -75,8 +75,8 @@ h1 {
   letter-spacing: .035em;
 }
 .hero-photo {
-  width: 160px;
-  height: 160px;
+  width: 142px;
+  height: 142px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -103,6 +103,23 @@ h1 {
   flex-wrap: wrap;
 }
 .profile-links { margin-top: 22px; font-size: 13px; }
+
+.bio-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 8px;
+  margin: 20px 0 2px;
+}
+.bio-facts span {
+  display: inline-block;
+  padding: 4px 9px;
+  border: 1px solid #d7d4cd;
+  border-radius: 999px;
+  background: rgba(243,241,235,.62);
+  color: #55534d;
+  font-size: 11px;
+  line-height: 1.35;
+}
 
 .motivation-card {
   border-left: 1px solid var(--rule);
@@ -276,7 +293,7 @@ footer p { margin: 0; }
   .brand { display: inline-block; margin-bottom: 10px; }
   nav { gap: 10px 16px; }
   .hero { grid-template-columns: 1fr; gap: 26px; padding-top: 40px; }
-  .hero-photo { width: 130px; height: 130px; }
+  .hero-photo { width: 118px; height: 118px; }
   .about-layout { grid-template-columns: 1fr; gap: 24px; }
   .motivation-card { border-left: 0; border-top: 1px solid var(--rule); padding: 22px 0 0; }
   .news-item { grid-template-columns: 1fr; gap: 3px; }
